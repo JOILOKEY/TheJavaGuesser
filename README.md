@@ -1,11 +1,10 @@
 # TheJavaGuesser 
-JavaGuesser
 
 Main Menu Loop
 
 Show the menu:
 
-Exit
+0) Exit
 
 Human Guesser
 
@@ -13,7 +12,7 @@ Computer Guesser
 
 Ask the user to pick an option (0, 1, or 2).
 
-Keep repeating the menu until the user chooses 0 (Exit).
+Repeat the menu until the user chooses 0 (Exit).
 
 Human Guesser Mode
 
@@ -27,17 +26,27 @@ If the guess is too high, say "too high..."
 
 If the guess is too low, say "too low..."
 
-If the guess is right, say "got it!" and end the guessing.
+If the guess is correct, say "got it!" and end the guessing.
 
 Count how many tries it took.
+
+Extra Credit: After the human guesses correctly, display a personalized message based on the number of tries:
+
+≤ 5 tries: "Wow, you’re a natural at this! "
+
+6–10 tries: "Good job! Practice makes perfect. "
+
+> 10 tries: "Keep trying, you’ll get faster next time! "
+
+Return to the main menu.
 
 Computer Guesser Mode
 
 Tell the human: "Think of a number between 1 and 100."
 
-Computer starts guessing by picking the middle number (50).
+Computer starts guessing by picking the middle number of the current range (initially 50).
 
-Human says if the guess is:
+Human responds whether the guess is:
 
 (H) too High
 
@@ -45,25 +54,25 @@ Human says if the guess is:
 
 (C) Correct
 
-If too high:
+Accept lowercase or uppercase input.
 
-Set the top boundary to current guess - 1.
+If too high: set top boundary to current guess - 1.
 
-If too low:
-
-Set the bottom boundary to current guess + 1.
+If too low: set bottom boundary to current guess + 1.
 
 Make a new guess by picking the middle of the new range.
 
-Keep guessing until human says "Correct."
+Repeat until the human says "Correct."
 
-Count the number of guesses and say how many tries it took.
+Count the number of guesses.
 
-*Notes
+Extra Credit: After the computer guesses correctly, display a playful message based on the number of tries:
 
-When asking for High/Low/Correct, accept both lowercase and uppercase (h, H, l, L, c, C).
+≤ 7 tries: "Binary search master! "
 
-After finishing Human or Computer guesser, go back to the main menu.
+> 7 tries: "That took a bit, but I got it! "
+
+Return to the main menu.
 
 Ending
 
