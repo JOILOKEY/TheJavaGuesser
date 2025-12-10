@@ -87,9 +87,9 @@ public class Guesser {
             } else if (response.equals("c")) {
                 System.out.println("Yay! I guessed your number in " + tries + " tries!\n");
 
-                // Extra credit: playful message for computer guessing
+               
                 if (tries <= 7) {
-                    System.out.println("Binary search master! ");
+                    System.out.println("Too easy! ");
                 } else {
                     System.out.println("That took a bit, but I got it! ");
                 }
