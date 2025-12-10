@@ -33,9 +33,7 @@ Count how many tries it took.
 Extra Credit: 
 
 ≤ 5 tries: "Wow, you’re a natural at this! "
-
 6–10 tries: "Good job! Practice makes perfect. "
-
 > 10 tries: "Keep trying, you’ll get faster next time! "
 
 Return to the main menu.
@@ -66,10 +64,9 @@ Repeat until the human says "Correct."
 
 Count the number of guesses.
 
-Extra Credit: After the computer guesses correctly, display a playful message based on the number of tries:
+Extra Credit: 
 
 ≤ 7 tries: "Binary search master! "
-
 > 7 tries: "That took a bit, but I got it! "
 
 Return to the main menu.
