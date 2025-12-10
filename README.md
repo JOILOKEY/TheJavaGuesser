@@ -30,7 +30,7 @@ If the guess is correct, say "got it!" and end the guessing.
 
 Count how many tries it took.
 
-Extra Credit: After the human guesses correctly, display a personalized message based on the number of tries:
+Extra Credit: 
 
 ≤ 5 tries: "Wow, you’re a natural at this! "
 
