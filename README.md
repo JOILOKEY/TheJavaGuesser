@@ -65,7 +65,7 @@ Count the number of guesses.
 
 Extra Credit: 
 
-≤ 7 tries: "Binary search master! " > 7 tries: "That took a bit, but I got it! "
+≤ 7 tries: "Too easy! " > 7 tries: "That took a bit, but I got it! "
 
 Return to the main menu.
 
